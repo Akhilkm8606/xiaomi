@@ -1,0 +1,123 @@
+.nav-link:hover{
+    text-decoration: 2px underline blueviolet ;    opacity: 0.5;
+}
+.banner-text-heading{
+    font-size: 35px;
+}
+.banner-text-desc{
+    font-size: 25px;
+}
+.banner-text-wrap{
+    position: absolute;
+    top: 20%;left: 3%; 
+    max-width: 30%;
+}
+.banner-text-wrap-2{
+    position: absolute;
+       top: 50%;left: 18%; 
+}
+@media only screen and (max-width:1000px){
+    .banner-text-wrap{
+        max-width: 100%;
+    }
+}
+@media only screen and (max-width:700px){
+    .banner-text-heading{
+        font-size: 23px;
+    }
+    .banner-text-desc{
+        font-size: 17px;
+    }
+}
+@media only screen and (max-width:500px){
+    .banner-text-wrap{
+        top: 0%;left: 0%; 
+        color: white;
+        position: relative;
+        background-color: rgb(194, 173, 134);
+    padding: 10px;}
+    .banner-text-wrap-2{
+        position: relative;
+        top: 0%;left: 0%; 
+        color: white;
+        position: relative;
+        background-color: rgb(194, 173, 134);
+    padding: 10px;
+    }
+    
+    
+       
+}
+.card-col {
+width: 25%;
+}
+.card-col-2  {
+    width: 50%;
+}
+.card{
+    width: 28rem;
+} 
+
+.card-col-2>.card{
+    width: 60rem;
+}
+.card-text{
+    width: 100%;
+}
+.card-img{
+    width: 100%;
+}
+@media only screen and (max-width:1000px){
+    .card-col{
+        width: 50%;
+        margin-top: 10px;
+        justify-content: center;
+
+        }
+        .card-col-2 {
+            width: 100%;
+            margin-top: 10px;
+            justify-content: center;
+        }
+        .card{
+            width: 28rem;
+        } 
+        
+        .card-col-2>.card{
+            width: 28rem;
+        }
+        .card-img{
+            position: relative;
+        }
+
+}
+@media only screen and (max-width:700px){
+    .card-col{
+        width: 100%;
+        margin-top: 10px;
+        justify-content: center;
+
+        }
+        .card-col-2 {
+            width: 100%;
+            margin-top: 10px;
+            justify-content: center;
+        }
+        .card{
+            width: 28rem;
+        } 
+        
+        .card-col-2>.card{
+            width: 28rem;
+        }
+
+}
+
+
+
+
+
+
+
+
+
